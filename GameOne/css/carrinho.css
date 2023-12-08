@@ -1,0 +1,58 @@
+.rowGeral{
+    margin-top: 10%;
+}
+
+.tabCarGeral{
+    border: 1px solid rgb(147, 133, 133);
+    height: 15vh;
+}
+
+.tabCar1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tabCar1 img{
+    width: 60%;
+}
+
+.tabCar2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tabCar3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tabCar4{
+    justify-content: center;
+    display: flex;
+    align-items: center;    
+}
+
+.tabCar5{
+    justify-content: center;
+    display: flex;
+    align-items: center;    
+}
+
+.rowFrete{
+    height: 15vh;
+    border: 1px solid black;
+}
+
+.rowFinalCompra{
+    height: 30vh;
+    border: 1px solid black;
+}
+
+.finalizarCompra .btn:hover{
+    background-color: #854ef2;
+}
+
+
