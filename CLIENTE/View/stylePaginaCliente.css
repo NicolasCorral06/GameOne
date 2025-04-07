@@ -1,0 +1,125 @@
+*{
+	font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 11pt;
+}
+
+.container{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.list-group-item{
+    border: 0px;
+    padding: 2px 15px;
+	margin-bottom: 30px;
+}
+
+.bordaMenuSelecionado{
+    border: 0;
+    border-left: 4px solid black;
+}
+
+label{
+	font-weight: normal;
+}
+
+.fundo_cinza{
+	background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.bloco_pedidos{
+    border-style: solid;
+    border-width: 0px 0px 0px 4px;
+}
+
+.espacamento{
+    margin-bottom: 35px;
+}
+
+.espacamentoMenor{
+    margin-bottom: 20px;
+}
+
+.btn_preto{
+    color: white;
+    background-color: black;
+    width: 200px;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.card_endereco{
+    border: 8px solid #ffffff;
+    text-align: center;
+}
+
+.div_card_endereco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fonte_cinza{
+    color: gray;
+}
+
+#endereco,
+#pedidos,
+#autenticacao,
+#editarDadosPessoais,
+#adicionarEndereco,
+#editarEndereco,
+#editarSenha,
+#menuMobile {
+    display: none;
+}
+
+.list-group-item:first-child{
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child{
+    border-bottom-left-radius: 0;
+}
+
+.linkVoltarOuMenu{
+    color: orange;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.custom-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sair{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.titulo{
+    font-size: 16pt;
+}
+
+#dadosPessoais,
+#editarDadosPessoais,
+#endereco,
+#adicionarEndereco,
+#editarEndereco,
+#pedidos,
+#autenticacao,
+#editarSenha{
+    margin-bottom: 40px;
+}
+
+svg{
+    vertical-align: text-top;
+}
